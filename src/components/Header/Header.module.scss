@@ -1,0 +1,49 @@
+.header{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-top: 25px;
+
+  .logoContainer{
+    display: flex;
+    gap: 15px;
+  }
+
+  .menu{
+
+    display: flex;
+    gap: 41px;
+
+    .menuBtn{
+      background: transparent;
+      display: block;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      font-family: "Montserrat",sans-serif;
+      font-size: 12px;
+      min-width: 80px;
+    }
+
+  }
+
+  .customBtn{
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    padding: 17px 39px;
+    height: 48px;
+    background: transparent;
+    color: #FFFFFF;
+    min-width: 154px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .btnContainer{
+    display: flex;
+    gap: 38px;
+    justify-self: end;
+    align-self: center;
+  }
+
+}

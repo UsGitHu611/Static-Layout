@@ -1,0 +1,68 @@
+.tech{
+
+  margin-bottom: 79px;
+  position: relative;
+
+  .wrapper{
+
+    position: relative;
+
+    .techMask{
+      height: 303px;
+      border-radius: 160px;
+      box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+      background: #211E2E;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 60px;
+
+      .info{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .title{
+          font-size: 36px;
+          margin-bottom: 11px;
+        }
+        .subtitle{
+          font-weight: 300;
+          font-size: 36px;
+        }
+      }
+
+    }
+  }
+
+  .arrowDown{
+    position: absolute;
+    border-radius: 50%;
+    border: 12px solid rgba(14, 14, 14, 0.32);;
+    cursor: pointer;
+    bottom: -44px;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gameDevLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &:before{
+    content: url("../../../img/design/Vector 11-tech.svg");
+    position: absolute;
+    z-index: -1;
+    top: -565px;
+    right: 180px;
+  }
+}

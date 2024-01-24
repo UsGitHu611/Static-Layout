@@ -1,0 +1,9 @@
+.services {
+  margin-bottom: 114px;
+}
+.services .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Services.module.css.map */

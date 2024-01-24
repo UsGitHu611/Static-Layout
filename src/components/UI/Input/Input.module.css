@@ -1,0 +1,17 @@
+.input {
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  display: inline-block;
+  padding: 27px 3px 27px 42px;
+  background: transparent;
+  outline: none;
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+}
+.input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=Input.module.css.map */

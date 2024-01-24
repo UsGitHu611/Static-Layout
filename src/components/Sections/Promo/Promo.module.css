@@ -1,0 +1,102 @@
+.promo {
+  margin-bottom: 94px;
+  z-index: 1;
+}
+.promo .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.promo .wrapper .info {
+  max-width: 456px;
+  margin-top: 146px;
+}
+.promo .wrapper .info .promoTitle {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+.promo .wrapper .info .promoTitle .firstWord {
+  background: linear-gradient(92deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.promo .wrapper .info .promoTitle .secondWords {
+  background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.promo .wrapper .info .text {
+  font-weight: 400;
+  margin-bottom: 66px;
+  line-height: 1.7;
+}
+.promo .wrapper .info .btnArrow {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.promo .wrapper .info:before {
+  content: url("../../../img/design/Vector 4.svg");
+  z-index: -1;
+  position: absolute;
+  top: 71px;
+  left: -80px;
+}
+.promo .wrapper .promoImg {
+  justify-self: end;
+  margin-top: 110px;
+  position: relative;
+}
+.promo .wrapper .promoImg .vector1, .promo .wrapper .promoImg .vector2, .promo .wrapper .promoImg .vector3 {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+.promo .wrapper .promoImg .vector1 {
+  bottom: -188px;
+  right: -100px;
+}
+.promo .wrapper .promoImg .vector2 {
+  top: -255px;
+  left: 100px;
+}
+.promo .wrapper .promoImg .vector3 {
+  left: -120px;
+  bottom: -105px;
+}
+.promo .contacts {
+  height: 167px;
+  width: 100%;
+  border-radius: 90px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+  margin-top: 88px;
+  display: grid;
+  justify-items: legacy;
+}
+.promo .contacts .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-self: center;
+}
+.promo .contacts .list li {
+  display: flex;
+  align-items: center;
+}
+.promo .contacts .list .middleItem::before, .promo .contacts .list .middleItem::after {
+  content: "";
+  width: 1px;
+  height: 116.5px;
+  background: rgba(192, 183, 232, 0.33);
+}
+.promo .contacts .list .subtitle {
+  font-size: 24px;
+}
+.promo .contacts .list .subtext {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=Promo.module.css.map */

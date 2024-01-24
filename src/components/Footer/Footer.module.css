@@ -1,0 +1,52 @@
+.footer {
+  margin-bottom: 59px;
+  font-weight: 700;
+}
+.footer .contactList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-bottom: 73px;
+}
+.footer .contactList .listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 192px;
+  position: relative;
+}
+.footer .contactList .listItem .socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .contactList .listItem .title {
+  font-size: 16px;
+}
+.footer .contactList .listItem:not(.footer .contactList .listItem:last-child):before {
+  content: url("../../img/design/footer-vertical-line.svg");
+  position: absolute;
+  right: -85px;
+}
+.footer .copyright {
+  margin-top: 49px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.82px;
+}
+.footer:after, .footer:before {
+  position: absolute;
+  z-index: -1;
+}
+.footer:after {
+  content: url("../../img/design/Vector 9-footer.svg");
+  top: -320px;
+  left: -60px;
+}
+.footer:before {
+  content: url("../../img/design/Vector 10-footer.svg");
+  top: -55px;
+  left: -40px;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

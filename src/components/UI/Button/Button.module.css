@@ -1,0 +1,15 @@
+.btn {
+  padding: 16px 39px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #343045;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  cursor: pointer;
+  height: 48px;
+  min-width: 154px;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

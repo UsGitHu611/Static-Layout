@@ -1,0 +1,66 @@
+.process {
+  margin-bottom: 112px;
+}
+.process .processList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 124px;
+  position: relative;
+}
+.process .processList:before {
+  content: url("../../../img/design/horizontal-pattern.svg");
+  object-fit: cover;
+  position: absolute;
+  top: -120px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process .processList .processListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.process .processList .processListItem .wrapper {
+  display: flex;
+  position: relative;
+  border: 18px solid rgba(13, 13, 13, 0.32);
+  border-radius: 50%;
+}
+.process .processList .processListItem .wrapper .circle {
+  width: 159px;
+  height: 159px;
+  background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+  border-radius: 50%;
+}
+.process .processList .processListItem .wrapper p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  color: #343045;
+  font-size: 64px;
+  font-weight: 700;
+}
+.process .processList .processListItem .info {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 25px;
+  position: relative;
+}
+.process .processList .processListItem .info:before {
+  content: url("../../../img/arrow-right.svg");
+  position: absolute;
+  left: -45px;
+}
+
+/*# sourceMappingURL=Process.module.css.map */

@@ -1,0 +1,39 @@
+.summary{
+
+  margin-bottom: 72px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .info{
+
+    font-size: 36px;
+    width: 480px;
+    position: relative;
+
+    .title{
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    .subtitle{
+      font-weight: 300;
+      font-size: 36px;
+    }
+
+    .arrow{
+      min-width: 228px;
+      position: absolute;
+      right: -85px;
+      bottom: -25px;
+    }
+  }
+
+  .text{
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+}

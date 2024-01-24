@@ -1,0 +1,32 @@
+.summary {
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary .info {
+  font-size: 36px;
+  width: 480px;
+  position: relative;
+}
+.summary .info .title {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+.summary .info .subtitle {
+  font-weight: 300;
+  font-size: 36px;
+}
+.summary .info .arrow {
+  min-width: 228px;
+  position: absolute;
+  right: -85px;
+  bottom: -25px;
+}
+.summary .text {
+  max-width: 650px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=Summary.module.css.map */

@@ -1,0 +1,42 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 25px;
+}
+.header .logoContainer {
+  display: flex;
+  gap: 15px;
+}
+.header .menu {
+  display: flex;
+  gap: 41px;
+}
+.header .menu .menuBtn {
+  background: transparent;
+  display: block;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  min-width: 80px;
+}
+.header .customBtn {
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  padding: 17px 39px;
+  height: 48px;
+  background: transparent;
+  color: #FFFFFF;
+  min-width: 154px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header .btnContainer {
+  display: flex;
+  gap: 38px;
+  justify-self: end;
+  align-self: center;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

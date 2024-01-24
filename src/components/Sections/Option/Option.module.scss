@@ -1,0 +1,58 @@
+.option{
+
+  margin-bottom: 127px;
+
+  .wrapper{
+
+    border-radius: 100px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 1008px;
+
+    .info{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 90px 0 65px 0;
+
+      .title{
+        font-size: 36px;
+      }
+
+      .subtitle{
+        font-weight: 300;
+        font-size: 36px;
+      }
+    }
+    .form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 35px 10px;
+      max-width: 1058px;
+      margin: 0 auto;
+
+      .textarea{
+        font-family: Montserrat,sans-serif;
+        resize: none;
+        background: transparent;
+        border-radius: 40px;
+        border: 2px solid #FFF;
+        outline: none;
+        padding: 27px 0 0 42px;
+        height: 210px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: #FFFFFF;
+        &::placeholder{
+          font-family: Montserrat,sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+
+  }
+}
